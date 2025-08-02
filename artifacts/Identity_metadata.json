@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_tut/identity.sol": "Identity"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_tut/identity.sol": {
+			"keccak256": "0xa34ada3443bc0334648f0e2b4f146986b9e7fd2451cb5e0ea7dd440b3abbc738",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://4f297c4c206bb93b2527fa2f3c2f60e77ff3191639ab9237e81d3ef3200ccf79",
+				"dweb:/ipfs/QmfMrg8GVXvFv6isTCbGLvKSXVnKvL2z83SVT6WwPjv9Y4"
+			]
+		}
+	},
+	"version": 1
+}
