@@ -1,0 +1,15 @@
+# Ignore environment secrets
+.env
+
+# Remix / Hardhat build outputs
+artifacts/
+cache/
+.states/
+.deps/
+
+# Node.js
+node_modules/
+
+# OS-specific junk
+.DS_Store
+*.log
