@@ -9,24 +9,23 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "Age",
+						"name": "_idx",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getAge",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_rollNo",
 						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "setter_Struct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -43,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity_tut/identity.sol": "Identity"
+			"solidity_tut/enum_mapping.sol": "State"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity_tut/identity.sol": {
-			"keccak256": "0x6805f20e2d4af3555f3a177de483c4a8c9858096c98a53d329189d338c86b23f",
+		"solidity_tut/enum_mapping.sol": {
+			"keccak256": "0xe37c532454003f281f7ffa4d6d33a1c42d85a3a7b7ad091b3732b0e1cc009836",
 			"license": "GPL-3.0-or-later",
 			"urls": [
-				"bzz-raw://df2865c1a66ba86036bb234a3cbf568bf6ca72bc1b5b302d53406c5379fc5f67",
-				"dweb:/ipfs/QmQ4TXuDMf6c5ETakFtttzU1cX9TDNV29AQAUHfpJT2GWE"
+				"bzz-raw://15e54814014c06eaee77c97cf1af6ee2b6e33c7f8587e332eb8f4e7d1620ce7e",
+				"dweb:/ipfs/QmW9a1mgqvxMg8gSSk4EvrkuizTdELD8K3T1NHEMaFopdj"
 			]
 		}
 	},

@@ -5,12 +5,11 @@ contract Identity {
     string name;
     uint age;
 
-    constructor() {
-        name = "Vedansh";
-        age = 17;
+    constructor(uint Age) {
+        age = Age;
     }
 
-    function getName () view public returns(string memory) 
+    function getName () view private returns(string memory) 
     {
             return name;
     }

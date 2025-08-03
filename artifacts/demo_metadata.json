@@ -6,24 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "Age",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "getAge",
+				"name": "getter",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "block_no",
 						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -43,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity_tut/identity.sol": "Identity"
+			"solidity_tut/global_variable.sol": "demo"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity_tut/identity.sol": {
-			"keccak256": "0x6805f20e2d4af3555f3a177de483c4a8c9858096c98a53d329189d338c86b23f",
-			"license": "GPL-3.0-or-later",
+		"solidity_tut/global_variable.sol": {
+			"keccak256": "0x423be6bccc7ba29499582bd22ae4ed4c2efa544a22cc9b1bf244af53d9068e6a",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://df2865c1a66ba86036bb234a3cbf568bf6ca72bc1b5b302d53406c5379fc5f67",
-				"dweb:/ipfs/QmQ4TXuDMf6c5ETakFtttzU1cX9TDNV29AQAUHfpJT2GWE"
+				"bzz-raw://4e75f43ac5d6ac96d485ff64dec32a1d121c66677bda0bf3d411bce425a38060",
+				"dweb:/ipfs/Qmd9h4DZa7nyXUbkoJX89xQ7bYrEx8D7QeXk4SqRy1LKFQ"
 			]
 		}
 	},
